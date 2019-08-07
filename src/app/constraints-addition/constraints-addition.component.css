@@ -1,0 +1,51 @@
+.button{
+    font-size: 1cm;
+    border-radius: 8px;
+    margin-right: 40%;
+    background-color: darkcyan;
+    margin-bottom: 1cm;
+}
+
+.title{
+    margin-right: 10%;
+    color: darkslategrey;
+}
+
+.reason {
+    height: 2cm;
+    text-align: center;
+    font-size: 0.5cm;
+    border-radius: 8px;
+}
+
+.priority{
+    width: 3cm;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.5cm;
+}
+
+.date{
+    border-radius: 8px;
+    width: 7cm;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: azure
+}
+
+.constraints-addition{
+    background-color: floralwhite;
+}
+
+.table{
+    margin-right: 25%;
+
+}
+
+th, td { 
+    width:150px; 
+    text-align:center; 
+    
+    padding:10px;
+  
+}

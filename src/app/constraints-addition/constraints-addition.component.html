@@ -1,1 +1,24 @@
-<p>constraints-addition works!</p>
+<router-outlet></router-outlet>
+<div class="constraints-addition" dir="rtl">
+    <h1 class="title">מתי אתה לא יכול להיות משובץ ?</h1>
+    <table class="table">
+        <tr>
+            <td><input id="date1" class="date" type="date" value="" placeholder="תאריך"></td>
+            <td><input id="reason1" class="reason" type="text" value="" placeholder="סיבה"></td>
+            <td><input id="priority1" class="priority" type="number" value="" placeholder="חשיבות"></td>
+        </tr>
+        <tr>
+            <td><input id="date2" class="date" type="date" value="" placeholder="תאריך"></td>
+            <td><input id="reason2" class="reason" type="text" value="" placeholder="סיבה"></td>
+            <td><input id="priority2" class="priority" type="number" value="" placeholder="חשיבות"></td>
+        </tr>
+        <tr>
+            <td><input id="date3" class="date" type="date" value="" placeholder="תאריך"></td>
+            <td><input id="reason3" class="reason" type="text" value="" placeholder="סיבה"></td>
+            <td><input id="priority3" class="priority" type="number" value="" placeholder="חשיבות"></td>
+        </tr>
+    </table>
+    <br>
+    <button class="button" (click)="updateValues()">הזן אילוצים</button>
+    <br>
+</div>
